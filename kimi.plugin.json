@@ -1,0 +1,42 @@
+{
+  "name": "seedance-by-ace",
+  "version": "0.1.0",
+  "description": "Seedance video generation and same-task results in Kimi Code, provided by Ace Data Cloud.",
+  "keywords": [
+    "seedance",
+    "seedance",
+    "video",
+    "video generation",
+    "kimi-code",
+    "acedatacloud"
+  ],
+  "author": {
+    "name": "Ace Data Cloud",
+    "email": "dev@acedata.cloud"
+  },
+  "homepage": "https://github.com/AceDataCloud/SeedanceKimiCode",
+  "license": "MIT",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "mcpServers": {
+    "seedance": {
+      "transport": "http",
+      "url": "https://seedance.mcp.acedata.cloud/mcp",
+      "bearerTokenEnvVar": "ACEDATACLOUD_API_TOKEN",
+      "enabledTools": [
+        "seedance_list_models",
+        "seedance_list_resolutions",
+        "seedance_generate_video",
+        "seedance_generate_video_from_image",
+        "seedance_get_task"
+      ]
+    }
+  },
+  "interface": {
+    "displayName": "Seedance by Ace Data Cloud",
+    "shortDescription": "Seedance video tools and same-task results",
+    "longDescription": "Independent Seedance integration maintained by Ace Data Cloud. Bring your own Ace API Token. Generation and editing may incur charges; query an existing task without resubmitting it. Not an official Seedance or Moonshot integration.",
+    "developerName": "Ace Data Cloud",
+    "websiteURL": "https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=seedance_kimi_readme_key"
+  }
+}
