@@ -37,6 +37,6 @@
     "shortDescription": "Seedance video tools and same-task results",
     "longDescription": "Independent Seedance integration maintained by Ace Data Cloud. Bring your own Ace API Token. Generation and editing may incur charges; query an existing task without resubmitting it. Not an official Seedance or Moonshot integration.",
     "developerName": "Ace Data Cloud",
-    "websiteURL": "https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen&utm_content=seedance_kimi_readme_key"
+    "websiteURL": "https://platform.acedata.cloud/console/applications?utm_source=github&utm_medium=referral&utm_campaign=evergreen"
   }
 }
